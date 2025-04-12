@@ -6,7 +6,8 @@ This project visualizes character relationships and networks in Brandon Sanderso
 
 Explore the character relationships and communities through our interactive Streamlit dashboard:
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mistborn-network.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mistborn-book-project-ganlxgtgottzmkxbq3qzsa.streamlit.app/)
+
 
 The dashboard features:
 - Interactive character relationship network
