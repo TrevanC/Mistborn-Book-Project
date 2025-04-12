@@ -1,6 +1,6 @@
 # Mistborn Character Network Analysis
 
-This project analyzes character relationships and networks in Brandon Sanderson's Mistborn series using network analysis and visualization techniques.
+This project visualizes character relationships and networks in Brandon Sanderson's Mistborn series using network analysis and interactive visualizations.
 
 ## Interactive Dashboard
 
@@ -11,24 +11,31 @@ Explore the character relationships and communities through our interactive Stre
 The dashboard features:
 - Interactive character relationship network
 - Community detection analysis
-- Character importance metrics
-- Zoom, pan, and selection capabilities
+- Zoom and pan capabilities
+- Node selection for detailed information
 
-## Deployment
 
-### Streamlit Cloud Deployment
+## Visualizations
 
-1. Push your code to GitHub
-2. Go to [Streamlit Cloud](https://streamlit.io/cloud)
-3. Sign in with your GitHub account
-4. Click "New app"
-5. Select your repository and branch
-6. Set the main file path to `app.py`
-7. Click "Deploy"
+### Character Relationship Network
+![](pictures/Book1Relationships.png)
 
-Your app will be available at: `https://[your-username]-mistborn-network.streamlit.app`
+### Community Analysis
+![](pictures/Book1Community.png)
 
-### Local Development
+### Character Relevance
+![](pictures/SeriesRelevance.png)
+
+## Project Structure
+
+- `app.py`: Streamlit application for hosting the visualizations
+- `mistborn.html`: Interactive character network visualization
+- `mistborn_communities.html`: Interactive community analysis visualization
+- `Relationship.ipynb`: Jupyter notebook containing the original analysis code
+- `Characters.txt`: Character data and relationships
+- `pictures/`: Directory containing static visualizations
+
+## Setup and Installation
 
 1. Clone the repository:
 ```bash
@@ -46,47 +53,26 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Visualizations
-
-### Character Relationship Network
-![](pictures/Book1Relationships.png)
-
-### Community Analysis
-![](pictures/Book1Community.png)
-
-### Character Relevance
-![](pictures/SeriesRelevance.png)
-
-## Project Structure
-
-- `app.py`: Streamlit application for interactive visualization
-- `mistborn.html`: Interactive character network visualization
-- `mistborn_communities.html`: Interactive community analysis visualization
-- `Relationship.ipynb`: Jupyter notebook containing the analysis code
-- `Characters.txt`: Character data and relationships
-- `pictures/`: Directory containing static visualizations
-
 ## Tools Used
 
 - Python
-- Jupyter Lab
+- Jupyter Lab for initial analysis
 - NetworkX for network analysis
 - Pyvis for interactive network visualization
 - Streamlit for web interface
 - Pandas for data manipulation
-- Matplotlib for static visualizations
 
 ## Features
 
 - Interactive network visualization of character relationships
 - Community detection analysis
-- Character importance metrics
 - Responsive web interface
 - Detailed character information on selection
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+## TODO
+- Character relationship charts of the 2nd and 3rd books
+- A more detailed analysis into character importance across the series
+- Character locations throughout the books
 
 ## License
 
